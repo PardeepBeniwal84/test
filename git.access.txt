@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -b 4096 -C "pardeepbeniwal84@gmail.com"
+eval "$(ssh-agent -s)"
+ cd /root/.ssh/
+root@pardeep-Aspire-E1-570:~/.ssh# ls
+id_rsa  id_rsa.pub  known_hosts
+root@pardeep-Aspire-E1-570:~/.ssh# gedit id_rsa.pub 
